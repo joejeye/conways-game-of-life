@@ -1,0 +1,1 @@
+go build -o .\exe\main.exe .\cmd\main.go
