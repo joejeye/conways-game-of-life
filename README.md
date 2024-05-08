@@ -15,7 +15,7 @@ Run the following command in a Powershell prompt
 ```ps1
 .\run.ps1 30 50 600
 ```
-This command creates a 5-by-20 2D world, and initialized the world with 30 live cells randomly scattered within. The 2D world is updated evey 125 ms. And the output is something like the following
+This command creates a 30-by-50 2D world, and initialized the world with 600 live cells randomly scattered within. The 2D world is updated evey 125 ms. And the output is something like the following
 
 ![Demo](./media/render1715062751484.gif)
 
