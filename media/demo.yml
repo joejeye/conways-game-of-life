@@ -9,7 +9,7 @@ config:
   
   # Specify the current working directory path
   # the default is the current working directory path
-  cwd: C:\1Ligo10\BenJeye\learn-n-play\Go\my-play\conways-life-game
+  cwd: C:\Users\Jeye\Desktop\conways-life-game
   
   # Export additional ENV variables
   env:
@@ -18,12 +18,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 143
+  cols: 120
   
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 31
+  rows: 30
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -111,117 +111,305 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 564
+  - delay: 551
     content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e[6;1H\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
-  - delay: 116
-    content: 'PS C:\1Ligo10\BenJeye\learn-n-play\Go\my-play\conways-life-game> '
-  - delay: 2057
-    content: "\e[?25l\e[91m\e[6;64H> \e[m.\e[?25h"
-  - delay: 177
-    content: "\e[?25l\e[6;64H> \e[93m.\\\e[?25h"
-  - delay: 16
+  - delay: 110
+    content: 'PS C:\Users\Jeye\Desktop\conways-life-game> '
+  - delay: 4930
+    content: "\e[93mru"
+  - delay: 22
     content: "\e[m"
-  - delay: 328
-    content: "\e[?25l\e[93m\e[6;66H.\\r\e[?25h"
-  - delay: 15
-    content: "\e[m"
-  - delay: 76
-    content: "\e[?25l\e[93m\e[6;66H.\\ru\e[?25h"
-  - delay: 19
-    content: "\e[m"
-  - delay: 132
-    content: "\e[?25l\e[93m\e[6;66H.\\run\e[?25h"
-  - delay: 16
-    content: "\e[m"
-  - delay: 838
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1\e[?25h"
-  - delay: 16
-    content: "\e[m"
-  - delay: 602
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[?25h"
+  - delay: 142
+    content: "\e[?25l\e[93m\e[6;45Hrun\e[?25h"
   - delay: 14
     content: "\e[m"
-  - delay: 401
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5\e[?25h"
+  - delay: 244
+    content: "\e[?25l\e[93m\e[6;45Hrun.\e[?25h"
   - delay: 17
     content: "\e[m"
-  - delay: 130
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 \e[?25h"
-  - delay: 18
+  - delay: 303
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1\e[?25h"
+  - delay: 14
     content: "\e[m"
-  - delay: 366
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 2\e[?25h"
-  - delay: 15
-    content: "\e[m"
-  - delay: 53
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 20\e[?25h"
+  - delay: 626
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[?25h"
   - delay: 16
     content: "\e[m"
-  - delay: 141
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 20 \e[?25h"
-  - delay: 26
-    content: "\e[m"
-  - delay: 615
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 20 3\e[?25h"
+  - delay: 1688
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5\e[?25h"
   - delay: 15
     content: "\e[m"
-  - delay: 39
-    content: "\e[?25l\e[93m\e[6;66H.\\run.ps1 \e[97m5 20 30\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 \e[?25h"
   - delay: 16
     content: "\e[m"
-  - delay: 934
-    content: "\e[?25l\e[8;1H| ■ ▢ ■ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ■ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ■ ▢ ■ ▢ ▢ ▢ ■ |\r\n| ▢ ■ ▢ ■ ■ ■ ▢ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ |\r\n| ■ ▢ ▢ ■ ▢ ▢ ▢ ■ ■ ▢ ▢ ■ ▢ ■ ▢ ■ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ■ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ■ |\r\n\e[?25h"
-  - delay: 518
-    content: "\r\n| ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ ■ ▢ ▢ ■ ▢ |\r\n| ■ ■ ■ ■ ■ ▢ ▢ ▢ ■ ■ ■ ▢ ▢ ■ ▢ ▢ ■ ■ ▢ ■ |\r\n| ■ ▢ ■ ■ ■ ▢ ■ ■ ▢ ▢ ■ ■ ■ ▢ ▢ ▢ ■ ▢ ▢ ▢ |\r\n| ■ ▢ ■ ■ ▢ ■ ▢ ■ ■ ■ ■ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ |\r\n| ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ■ ▢ ▢ ■ ▢ ▢ ■ ■ |\r\n"
-  - delay: 514
-    content: "\r\n| ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ■ ■ ▢ ■ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ■ ■ ▢ ■ ■ ▢ ▢ ▢ ▢ ■ ■ ■ ■ ■ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ■ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ■ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ■ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ■ ■ ▢ ■ ▢ ▢ ■ ▢ |\r\n"
-  - delay: 501
-    content: "\r\n| ▢ ▢ ▢ ■ ■ ▢ ■ ■ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ■ ■ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ■ ▢ ■ ■ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ |\r\n"
-  - delay: 485
-    content: "\n| ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ■ |\r\n| ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ■ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ■ ▢ ▢ |"
+  - delay: 658
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 2\e[?25h"
   - delay: 15
+    content: "\e[m"
+  - delay: 93
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 20\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 125
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 20 \e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 234
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 20 3\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 81
+    content: "\e[?25l\e[93m\e[6;45H.\\run.ps1 \e[97m5 20 30\e[?25h"
+  - delay: 12
+    content: "\e[m"
+  - delay: 547
+    content: "\r\n"
+  - delay: 16
+    content: "\r\n|     ■               ■     ■ ■ ■       ■ |\r\n| ■             ■ ■   ■ ■ ■           ■   |\r\n| ■   ■ ■         ■         ■     ■ ■   ■ |\r\n|         ■ ■             ■ ■       ■   ■ |\r\n|                     ■         ■   ■     |\r\n"
+  - delay: 527
+    content: "\r\n|                     ■   ■ ■ ■ ■ ■   ■ ■ |\r\n| ■   ■ ■       ■ ■   ■ ■ ■     ■ ■ ■ ■   |\r\n| ■ ■   ■ ■     ■ ■ ■       ■     ■ ■     |\r\n| ■     ■ ■               ■ ■ ■     ■   ■ |\r\n|                       ■ ■     ■         |\r\n"
+  - delay: 505
+    content: "\r\n|                   ■ ■               ■ ■ |\r\n| ■   ■ ■ ■     ■     ■                   |\r\n|               ■   ■ ■                   |\r\n| ■ ■ ■ ■ ■       ■     ■     ■ ■   ■ ■ ■ |\r\n| ■                                 ■     |\r\n"
+  - delay: 500
+    content: "\r\n| ■ ■   ■           ■ ■               ■ ■ |\r\n|       ■               ■               ■ |\r\n|               ■   ■ ■ ■             ■   |\r\n| ■ ■ ■ ■         ■ ■ ■           ■ ■ ■ ■ |\r\n|     ■ ■           ■ ■           ■ ■     |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 500
+    content: "\n| ■ ■   ■ ■         ■   ■           ■ ■ ■ |\r\n|     ■           ■     ■                 |\r\n|   ■   ■               ■                 |\r\n| ■ ■   ■                         ■     ■ |\r\n|         ■             ■         ■       |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 515
+    content: "\n| ■ ■ ■ ■ ■             ■ ■         ■ ■ ■ |\r\n|         ■             ■ ■           ■ ■ |\r\n|   ■   ■                                 |\r\n| ■ ■   ■ ■                               |\r\n|         ■           ■           ■       |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 493
+    content: "\n| ■ ■ ■   ■ ■         ■   ■         ■     |\r\n|         ■             ■ ■         ■     |\r\n|   ■   ■                               ■ |\r\n| ■ ■   ■ ■                               |\r\n|           ■           ■           ■ ■   |"
+  - delay: 17
+    content: "\r\n"
+  - delay: 488
+    content: "\n|   ■   ■ ■ ■         ■   ■       ■ ■     |\r\n|         ■ ■           ■ ■           ■   |\r\n|   ■   ■                                 |\r\n| ■ ■   ■ ■                           ■ ■ |\r\n|           ■           ■           ■ ■ ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|       ■     ■       ■   ■       ■     ■ |\r\n|           ■           ■ ■         ■     |\r\n|   ■   ■   ■                         ■   |\r\n|   ■   ■ ■                         ■     |\r\n|   ■       ■           ■         ■       |"
+  - delay: 16
     content: "\r\n"
   - delay: 499
-    content: "\n| ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ |\r\n| ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ |\r\n| ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ■ ■ ▢ |"
-  - delay: 15
+    content: "\n|         ■ ■ ■       ■   ■       ■ ■     |\r\n|     ■     ■ ■         ■ ■         ■ ■   |\r\n|       ■   ■                       ■ ■   |\r\n| ■ ■   ■   ■                       ■     |\r\n| ■     ■   ■           ■         ■ ■     |"
+  - delay: 14
     content: "\r\n"
-  - delay: 490
-    content: "\n| ▢ ▢ ▢ ■ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ■ ▢ |\r\n| ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ■ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ■ ▢ |\r\n| ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ |"
-  - delay: 15
-    content: "\r\n"
-  - delay: 499
-    content: "\n| ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ■ ■ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ■ ▢ |"
-  - delay: 15
-    content: "\r\n"
-  - delay: 499
-    content: "\n| ▢ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ■ ■ ▢ ▢ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |"
+  - delay: 502
+    content: "\n|       ■             ■   ■               |\r\n|       ■               ■ ■               |\r\n|   ■   ■   ■                     ■     ■ |\r\n| ■ ■   ■   ■ ■                         ■ |\r\n| ■ ■ ■ ■               ■             ■   |"
   - delay: 15
     content: "\r\n"
   - delay: 489
-    content: "\n| ▢ ▢ ■ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ■ ■ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |"
-  - delay: 14
+    content: "\n|   ■   ■ ■           ■   ■               |\r\n|       ■               ■ ■               |\r\n|   ■   ■   ■ ■                         ■ |\r\n|       ■   ■ ■                       ■   |\r\n|       ■               ■                 |"
+  - delay: 17
+    content: "\r\n"
+  - delay: 493
+    content: "\n|       ■ ■           ■   ■               |\r\n| ■     ■   ■           ■ ■               |\r\n|       ■   ■ ■                           |\r\n|       ■   ■ ■                           |\r\n|       ■   ■           ■                 |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|     ■ ■   ■         ■   ■               |\r\n|     ■ ■   ■ ■         ■ ■               |\r\n|     ■ ■                                 |\r\n|     ■ ■                                 |\r\n|     ■ ■   ■ ■         ■                 |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|   ■                 ■   ■               |\r\n|   ■       ■ ■         ■ ■               |\r\n|   ■                                     |\r\n|   ■                                     |\r\n|   ■       ■ ■         ■                 |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n| ■ ■ ■               ■   ■               |\r\n| ■ ■ ■                 ■ ■               |\r\n| ■ ■ ■                                   |\r\n| ■ ■ ■                                   |\r\n| ■ ■ ■                 ■                 |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 501
+    content: "\n|       ■             ■   ■             ■ |\r\n|       ■               ■ ■             ■ |\r\n|       ■                               ■ |\r\n|       ■                               ■ |\r\n|       ■               ■               ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n| ■   ■ ■ ■           ■   ■           ■ ■ |\r\n| ■   ■ ■ ■             ■ ■           ■ ■ |\r\n| ■   ■ ■ ■                           ■ ■ |\r\n| ■   ■ ■ ■                           ■ ■ |\r\n| ■   ■ ■ ■             ■             ■ ■ |"
+  - delay: 15
     content: "\r\n"
   - delay: 496
-    content: "\n| ▢ ▢ ■ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |\r\n| ▢ ▢ ■ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ |\r\n| ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ■ ▢ ▢ |\r\n| ▢ ▢ ▢ ■ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ ■ ▢ ▢ ■ ▢ |\r\nLoop detected!"
+    content: "\n|           ■         ■   ■         ■     |\r\n|           ■           ■ ■         ■     |\r\n|           ■                       ■     |\r\n|           ■                       ■     |\r\n|           ■           ■           ■     |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 490
+    content: "\n|         ■ ■ ■       ■   ■       ■ ■ ■   |\r\n|         ■ ■ ■         ■ ■       ■ ■ ■   |\r\n|         ■ ■ ■                   ■ ■ ■   |\r\n|         ■ ■ ■                   ■ ■ ■   |\r\n|         ■ ■ ■         ■         ■ ■ ■   |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 514
+    content: "\n|       ■       ■     ■   ■     ■       ■ |\r\n|       ■       ■       ■ ■     ■       ■ |\r\n|       ■       ■               ■       ■ |\r\n|       ■       ■               ■       ■ |\r\n|       ■       ■       ■       ■       ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n| ■   ■ ■ ■   ■ ■ ■   ■   ■   ■ ■ ■   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■     ■ ■   ■ ■ ■   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■           ■ ■ ■   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■           ■ ■ ■   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■     ■     ■ ■ ■   ■ ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 486
+    content: "\n|                     ■   ■               |\r\n|                       ■ ■               |\r\n|                   ■                     |\r\n|                   ■       ■             |\r\n|                       ■                 |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|                     ■   ■               |\r\n|                     ■ ■ ■               |\r\n|                     ■   ■               |\r\n|                     ■                   |\r\n|                     ■ ■ ■               |"
+  - delay: 23
+    content: "\r\n"
+  - delay: 493
+    content: "\n|                   ■       ■             |\r\n|                   ■ ■   ■ ■             |\r\n|                   ■ ■   ■               |\r\n|                   ■ ■   ■               |\r\n|                   ■ ■   ■               |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n|                 ■         ■             |\r\n|                 ■       ■ ■             |\r\n|                 ■       ■               |\r\n|                 ■       ■ ■             |\r\n|                 ■       ■ ■             |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 498
+    content: "\n|               ■ ■ ■         ■           |\r\n|               ■ ■ ■     ■ ■             |\r\n|               ■ ■ ■   ■                 |\r\n|               ■ ■ ■   ■                 |\r\n|               ■ ■ ■         ■           |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|             ■       ■       ■           |\r\n|             ■           ■ ■             |\r\n|             ■         ■                 |\r\n|             ■                           |\r\n|             ■                           |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|           ■ ■ ■           ■             |\r\n|           ■ ■ ■       ■ ■ ■             |\r\n|           ■ ■ ■         ■               |\r\n|           ■ ■ ■                         |\r\n|           ■ ■ ■                         |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|         ■       ■         ■             |\r\n|         ■       ■     ■   ■             |\r\n|         ■       ■     ■ ■ ■             |\r\n|         ■       ■                       |\r\n|         ■       ■                       |"
+  - delay: 24
+    content: "\r\n"
+  - delay: 490
+    content: "\n|       ■ ■ ■   ■ ■ ■     ■               |\r\n|       ■ ■ ■   ■ ■ ■   ■   ■ ■           |\r\n|       ■ ■ ■   ■ ■ ■   ■   ■             |\r\n|       ■ ■ ■   ■ ■ ■     ■               |\r\n|       ■ ■ ■   ■ ■ ■                     |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|     ■                   ■ ■             |\r\n|     ■                 ■   ■ ■           |\r\n|     ■                 ■   ■ ■           |\r\n|     ■                   ■               |\r\n|     ■               ■                   |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n|   ■ ■ ■               ■ ■ ■ ■           |\r\n|   ■ ■ ■               ■                 |\r\n|   ■ ■ ■               ■     ■           |\r\n|   ■ ■ ■               ■ ■ ■             |\r\n|   ■ ■ ■               ■ ■ ■             |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 501
+    content: "\n| ■       ■           ■       ■           |\r\n| ■       ■           ■ ■     ■           |\r\n| ■       ■           ■ ■   ■             |\r\n| ■       ■           ■       ■           |\r\n| ■       ■           ■                   |"
+  - delay: 30
+    content: "\r\n"
+  - delay: 485
+    content: "\n| ■ ■   ■ ■ ■       ■ ■                 ■ |\r\n| ■ ■   ■ ■ ■       ■     ■ ■ ■         ■ |\r\n| ■ ■   ■ ■ ■       ■     ■ ■ ■         ■ |\r\n| ■ ■   ■ ■ ■       ■ ■                 ■ |\r\n| ■ ■   ■ ■ ■       ■ ■ ■               ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 498
+    content: "\n|             ■   ■       ■ ■         ■   |\r\n|             ■   ■ ■   ■ ■   ■       ■   |\r\n|             ■   ■ ■   ■ ■   ■       ■   |\r\n|             ■   ■       ■ ■         ■   |\r\n|             ■   ■     ■             ■   |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 487
+    content: "\n|           ■ ■   ■   ■     ■       ■ ■ ■ |\r\n|           ■ ■               ■     ■ ■ ■ |\r\n|           ■ ■               ■     ■ ■ ■ |\r\n|           ■ ■   ■   ■     ■       ■ ■ ■ |\r\n|           ■ ■   ■ ■   ■           ■ ■ ■ |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 499
+    content: "\n| ■       ■       ■   ■           ■       |\r\n| ■       ■                 ■ ■   ■       |\r\n| ■       ■                 ■ ■   ■       |\r\n| ■       ■       ■   ■           ■       |\r\n| ■       ■       ■     ■ ■       ■       |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 498
+    content: "\n| ■ ■   ■ ■ ■       ■   ■ ■ ■     ■ ■   ■ |\r\n| ■ ■   ■ ■ ■               ■ ■   ■ ■   ■ |\r\n| ■ ■   ■ ■ ■               ■ ■   ■ ■   ■ |\r\n| ■ ■   ■ ■ ■       ■   ■ ■ ■     ■ ■   ■ |\r\n| ■ ■   ■ ■ ■   ■ ■   ■ ■       ■ ■ ■   ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 498
+    content: "\n|                 ■ ■   ■   ■             |\r\n|             ■                           |\r\n|             ■                           |\r\n|                 ■ ■   ■   ■             |\r\n|                 ■           ■ ■         |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 485
+    content: "\n|               ■ ■ ■         ■           |\r\n|               ■                         |\r\n|               ■                         |\r\n|               ■ ■ ■         ■           |\r\n|               ■           ■ ■           |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n|             ■ ■           ■ ■           |\r\n|             ■ ■                         |\r\n|             ■ ■                         |\r\n|             ■ ■           ■ ■           |\r\n|             ■             ■ ■ ■         |"
   - delay: 14
     content: "\r\n"
+  - delay: 501
+    content: "\n|           ■               ■   ■         |\r\n|           ■     ■                       |\r\n|           ■     ■                       |\r\n|           ■               ■   ■         |\r\n|           ■             ■     ■         |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 487
+    content: "\n|         ■ ■ ■               ■           |\r\n|         ■ ■ ■                           |\r\n|         ■ ■ ■                           |\r\n|         ■ ■ ■               ■           |\r\n|         ■ ■ ■           ■ ■   ■ ■       |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 497
+    content: "\n|       ■       ■           ■ ■ ■         |\r\n|       ■       ■                         |\r\n|       ■       ■                         |\r\n|       ■       ■           ■ ■ ■         |\r\n|       ■       ■           ■   ■         |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 499
+    content: "\n|     ■ ■ ■   ■ ■ ■         ■   ■         |\r\n|     ■ ■ ■   ■ ■ ■           ■           |\r\n|     ■ ■ ■   ■ ■ ■           ■           |\r\n|     ■ ■ ■   ■ ■ ■         ■   ■         |\r\n|     ■ ■ ■   ■ ■ ■       ■       ■       |"
+  - delay: 14
+    content: "\r\n"
+  - delay: 501
+    content: "\n|   ■               ■       ■ ■ ■         |\r\n|   ■               ■       ■ ■ ■         |\r\n|   ■               ■       ■ ■ ■         |\r\n|   ■               ■       ■ ■ ■         |\r\n|   ■               ■     ■ ■   ■ ■       |"
   - delay: 22
-    content: 'PS C:\1Ligo10\BenJeye\learn-n-play\Go\my-play\conways-life-game> '
-  - delay: 2036
+    content: "\r\n"
+  - delay: 492
+    content: "\n| ■ ■ ■           ■ ■ ■                   |\r\n| ■ ■ ■           ■ ■ ■   ■       ■       |\r\n| ■ ■ ■           ■ ■ ■   ■       ■       |\r\n| ■ ■ ■           ■ ■ ■                   |\r\n| ■ ■ ■           ■ ■ ■   ■       ■       |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 501
+    content: "\n|       ■       ■                       ■ |\r\n|       ■       ■                       ■ |\r\n|       ■       ■                       ■ |\r\n|       ■       ■                       ■ |\r\n|       ■       ■                       ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 514
+    content: "\n| ■   ■ ■ ■   ■ ■ ■                   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■                   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■                   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■                   ■ ■ |\r\n| ■   ■ ■ ■   ■ ■ ■                   ■ ■ |"
+  - delay: 14
+    content: "\r\n"
+  - delay: 487
+    content: "\n|                   ■               ■     |\r\n|                   ■               ■     |\r\n|                   ■               ■     |\r\n|                   ■               ■     |\r\n|                   ■               ■     |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 497
+    content: "\n|                 ■ ■ ■           ■ ■ ■   |\r\n|                 ■ ■ ■           ■ ■ ■   |\r\n|                 ■ ■ ■           ■ ■ ■   |\r\n|                 ■ ■ ■           ■ ■ ■   |\r\n|                 ■ ■ ■           ■ ■ ■   |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|               ■       ■       ■       ■ |\r\n|               ■       ■       ■       ■ |\r\n|               ■       ■       ■       ■ |\r\n|               ■       ■       ■       ■ |\r\n|               ■       ■       ■       ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 489
+    content: "\n| ■           ■ ■ ■   ■ ■ ■   ■ ■ ■   ■ ■ |\r\n| ■           ■ ■ ■   ■ ■ ■   ■ ■ ■   ■ ■ |\r\n| ■           ■ ■ ■   ■ ■ ■   ■ ■ ■   ■ ■ |\r\n| ■           ■ ■ ■   ■ ■ ■   ■ ■ ■   ■ ■ |\r\n| ■           ■ ■ ■   ■ ■ ■   ■ ■ ■   ■ ■ |"
+  - delay: 14
+    content: "\r\n"
+  - delay: 498
+    content: "\n|   ■       ■                             |\r\n|   ■       ■                             |\r\n|   ■       ■                             |\r\n|   ■       ■                             |\r\n|   ■       ■                             |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 498
+    content: "\n| ■ ■ ■   ■ ■ ■                           |\r\n| ■ ■ ■   ■ ■ ■                           |\r\n| ■ ■ ■   ■ ■ ■                           |\r\n| ■ ■ ■   ■ ■ ■                           |\r\n| ■ ■ ■   ■ ■ ■                           |"
+  - delay: 16
+    content: "\r\n"
+  - delay: 499
+    content: "\n|               ■                       ■ |\r\n|               ■                       ■ |\r\n|               ■                       ■ |\r\n|               ■                       ■ |\r\n|               ■                       ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n| ■           ■ ■ ■                   ■ ■ |\r\n| ■           ■ ■ ■                   ■ ■ |\r\n| ■           ■ ■ ■                   ■ ■ |\r\n| ■           ■ ■ ■                   ■ ■ |\r\n| ■           ■ ■ ■                   ■ ■ |"
+  - delay: 15
+    content: "\r\n"
+  - delay: 500
+    content: "\n|   ■       ■       ■               ■     |\r\n|   ■       ■       ■               ■     |\r\n|   ■       ■       ■               ■     |\r\n|   ■       ■       ■               ■     |\r\n|   ■       ■       ■               ■     |\r\nLoop detected!"
+  - delay: 15
+    content: "\r\nPS C:\\Users\\Jeye\\Desktop\\conways-life-game>\e[1C"
+  - delay: 2093
     content: "\e[93me"
-  - delay: 16
+  - delay: 17
     content: "\e[m"
-  - delay: 82
+  - delay: 98
     content: "\e[93m\bex"
-  - delay: 17
-    content: "\e[m"
-  - delay: 116
-    content: "\e[?25l\e[93m\e[31;66Hexi\e[?25h"
-  - delay: 17
-    content: "\e[m"
-  - delay: 149
-    content: "\e[?25l\e[92m\e[31;66Hexit\e[?25h"
   - delay: 16
     content: "\e[m"
-  - delay: 277
+  - delay: 125
+    content: "\e[?25l\e[93m\e[30;45Hexi\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 125
+    content: "\e[?25l\e[92m\e[30;45Hexit\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 324
     content: "\r\n"
