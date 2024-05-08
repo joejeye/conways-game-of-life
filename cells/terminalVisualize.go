@@ -8,7 +8,7 @@ func (B *Board) TerminalVisualize() (visual string) {
 			if B.Cells[i][j].Alive {
 				line = append(line, '■', ' ')
 			} else {
-				line = append(line, '▢', ' ')
+				line = append(line, ' ', ' ')
 			}
 		}
 		line = append([]rune{'|', ' '}, line...)
