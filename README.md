@@ -13,10 +13,9 @@ Open a Powershell command prompt and enter the following command
 
 Run the following command in a Powershell prompt
 ```ps1
-.\run.ps1
+.\run.ps1 5 20 30
 ```
-
-and then you will see the evolution of the lives on a 2D world
+This command creates a 5-by-20 2D world, and initialized the world with 30 live cells randomly scattered within. The 2D world is updated evey 500 ms. And the output is something like the following
 
 ![Demo](./media/render1715062751484.gif)
 
